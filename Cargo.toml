@@ -29,11 +29,11 @@ authors = ["https://github.com/ethereum/trin/graphs/contributors"]
 categories = ["cryptography::cryptocurrencies"]
 edition = "2021"
 keywords = ["ethereum", "portal-network"]
-license = "GPL-3.0"
+license = "MIT"
 readme = "README.md"
 repository = "https://github.com/ethereum/trin"
-rust-version = "1.81.0"
-version = "0.1.0"
+rust-version = "1.85.0"
+version = "0.2.1"
 
 [workspace.dependencies]
 alloy = { version = "0.11.1", default-features = false, features = ["std"] }
